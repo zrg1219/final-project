@@ -6,11 +6,11 @@
 
 
 <h1><a href="http://www.cs.earlham.edu/~jimg/reading/bored.html">If you're looking for some more ideas... </a></h1>
-<h2><% @all_ideas.each do |item|%>  </h2>
+<h3><% @all_ideas.each do |item|%>  </h3>
 <br>
 
 
-<h3><a href="http://www.buzzle.com/articles/fun-things-to-do-when-youre-bored-at-home.html"><img src="http://www.buzzle.com/img/articleImages/327237-57617-32.jpg"></a></h3>
+<h2><a href="http://www.buzzle.com/articles/fun-things-to-do-when-youre-bored-at-home.html"><img src="http://www.buzzle.com/img/articleImages/327237-57617-32.jpg"></a></h2>
 
 <form method="post" action="/">
   Enter your number here to receive a text with an activity!
@@ -18,6 +18,14 @@
 
 <button type="submit"> ACTIVATE!!!</button>
 </form>
+
+<form method="post" action="/">
+  Enter your email address here to receive a text with an activity!
+<input type="text" name="email_address">
+
+<button type="submit"> ACTIVATE!!!</button>
+</form>
+
 
   <p> <%= item.activity %></p>
 

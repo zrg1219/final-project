@@ -1,9 +1,10 @@
 p {
   font-family: "Times New Roman";
   font-size: 30px;
-  background: -webkit-linear-gradient(white, black);
+/*  background: -webkit-linear-gradient(white, black);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+ /* -webkit-text-fill-color: transparent;**/
+  color: #6666FF;
   text-align: center;
 
 }

@@ -4,7 +4,7 @@ require_relative 'new.rb'
 
 class Texts
 
-  def send_text
+  def send_text(x)
   IdeaDisplay.make_activities
   # put your own credentials here
   account_sid = 'ACe330ba04d082392df4cb3511dcb72cec'
@@ -15,7 +15,7 @@ class Texts
 
   @client.account.messages.create(
     :from => '+18152642023',
-    :to => '+19149806396',
+    :to => x,
     :body => "Don't be lazy, go do this today: #{IdeaDisplay.all.sample.activity}"
     )
   end
